@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Book Amazing Tour Here! </h1>
+    </header>
+
+    <main>
+        <section id="tour-details">
+            <h2>Tour Details</h2>
+        </section>
+
+        <section id="booking-form">
+            <h2>Booking Details</h2>
+            <form>
+                <label for="tour-date"> Select Date : </label>
+                <input type="date" id="tour-date" required>
+                
+                <label for="num-adults"> Number of Adults : </label>
+                <input type="number" id="num-adults" min="1" value="1" required>
+
+                <label for="num-children"> Number of Children : </label>
+                <input type="number" id="num-children" min="0" value="0">
+
+                <button type="submit"> Book Your Tour Now! </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+       
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
